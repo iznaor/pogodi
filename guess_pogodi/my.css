@@ -1,0 +1,14 @@
+body, html {
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	font-size: 16px;
+	margin: 2.5em;
+        line-height: 1.2em;
+        letter-spacing: 2px;
+	background-color: #778899;
+}
+
+img {
+  width: 10%;
+
+}
