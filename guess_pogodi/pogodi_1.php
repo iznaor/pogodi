@@ -4,7 +4,6 @@ if (!isset($_POST["pogodi"])) {
 $poruka1 = "Probaj pogoditi broj u intervalu od 1 do 9";
 $poruka = "";
      $_POST["raspon"] = rand(1,9);
-     echo $_POST["raspon"];
 } else if ($_POST["pogodi"] > $_POST["raspon"]) { 
 $poruka1 = "Probaj pogoditi broj u intervalu od 1 do 9";
     $poruka = "Krivi broj";
@@ -22,7 +21,7 @@ $poruka1 = "Probaj pogoditi broj u intervalu od 1 do 9";
 
     <head>
 <img src="img/phplogo.png" alt="PHP logo">
-        <title>PHP pogaðanje broja</title>
+        <title>PHP pogaÃ°anje broja</title>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	   <meta name="author" content="Ivan Znaor">
          <meta name="viewport" content="width=device-width, initial-scale=1">
